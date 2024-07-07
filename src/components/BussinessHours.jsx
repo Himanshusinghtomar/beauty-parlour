@@ -13,7 +13,7 @@ const BussinessHours = () => {
   ];
   return (
     <AppLayout>
-      <div className="flex justify-between  my-10">
+      <div className="flex justify-between  my-10 flex-wrap">
         <div className="">
           <h2 className="text-center text-2xl font-bold mb-4 text-white">
             BUSINESS HOURS
