@@ -7,7 +7,7 @@ import inst from "./assites/Instagram.png";
 function Footer() {
   return (
     <div className="w-full h-[700px]  sm:h-[350px] lg:h-[410px]  bg-[#5F4614] text-[#FFF] ">
-      <div class="flex justify-evenly ">
+      <div class="flex justify-evenly flex-wrap">
         <div className="  my-10">
           <p className="mb-6 text-xl font-bold ">Contaact Details :-</p>
           <ul className="flex flex-col space-y-2   ">
