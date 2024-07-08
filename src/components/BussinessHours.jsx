@@ -13,12 +13,12 @@ const BussinessHours = () => {
   ];
   return (
     <AppLayout>
-      <div className="flex justify-between  my-10 flex-wrap">
+      <div className="flex sm:justify-between  my-10 flex-wrap gap-4 justify-center">
         <div className="">
-          <h2 className="text-center text-2xl font-bold mb-4 text-white">
+          <h2 className="text-center text-xl sm:text-2xl  font-bold mb-4 text-white">
             BUSINESS HOURS
           </h2>
-          <div className="bg-[#35322C] border border-[#FBBB17] text-white p-6 rounded-lg shadow-lg w-[400px] h-[500px]">
+          <div className="bg-[#35322C] border border-[#FBBB17] text-white p-6 rounded-lg shadow-lg sm:w-[400px] sm:h-[500px] mx-auto">
             <ul>
               {hours.map((hour, index) => (
                 <li
@@ -33,12 +33,12 @@ const BussinessHours = () => {
           </div>
         </div>
         <div className="">
-          <h2 className="text-center text-2xl font-bold mb-4 text-white">
+          <h2 className="text-center text-xl font-bold mb-4 text-white sm:text-2xl">
             MAKE AN APPOINTMENT
           </h2>
-          <div className="bg-[#35322C] border border-[#FBBB17] text-white p-6 rounded-lg shadow-lg w-[400px] h-[500px]">
+          <div className="bg-[#35322C] border border-[#FBBB17] text-white p-6 rounded-lg shadow-lg sm:w-[400px] sm:h-[500px] w-[200px] h-[500px] mx-auto">
             <form className="">
-              <div className="flex items-center border border-yellow-500 rounded-lg px-3 py-2 mb-8 mt-8">
+              <div className="flex items-center border border-yellow-500 rounded-lg px-2 py-2 mb-8 mt-8">
                 <svg
                   className="h-6 w-6 text-yellow-500 mr-3"
                   fill="currentColor"
@@ -53,7 +53,7 @@ const BussinessHours = () => {
                   className="bg-transparent flex-1 outline-none text-white"
                 />
               </div>
-              <div className="flex items-center border border-yellow-500 rounded-lg px-3 py-2 mt-8">
+              <div className="flex items-center border border-yellow-500 rounded-lg px-2 py-2 mt-8">
                 <svg
                   className="h-6 w-6 text-yellow-500 mr-3"
                   fill="currentColor"
@@ -68,7 +68,7 @@ const BussinessHours = () => {
                   className="bg-transparent flex-1 outline-none text-white"
                 />
               </div>
-              <div className="flex items-center border border-yellow-500 rounded-lg px-3 py-2 mt-8">
+              <div className="flex items-center border border-yellow-500 rounded-lg px-2 py-2 mt-8">
                 <svg
                   className="h-6 w-6 text-yellow-500 mr-3"
                   fill="currentColor"
@@ -83,7 +83,7 @@ const BussinessHours = () => {
                   className="bg-transparent flex-1 outline-none text-white"
                 />
               </div>
-              <div className="flex items-center border border-yellow-500 rounded-lg px-3 py-2 mt-8">
+              <div className="flex items-center border border-yellow-500 rounded-lg px-2 py-2 mt-8">
                 <svg
                   className="h-6 w-6 text-yellow-500 mr-3"
                   fill="currentColor"
@@ -94,11 +94,11 @@ const BussinessHours = () => {
                 </svg>
                 <input
                   type="text"
-                  placeholder="Enter Service You Need"
+                  placeholder="Enter Service"
                   className="bg-transparent flex-1 outline-none text-white"
                 />
               </div>
-              <div className="flex items-center border border-yellow-500 rounded-lg px-3 py-2 mt-8">
+              <div className="flex items-center border border-yellow-500 rounded-lg px-2 py-2 mt-8">
                 <svg
                   className="h-6 w-6 text-yellow-500 mr-3"
                   fill="currentColor"

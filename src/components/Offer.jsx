@@ -22,7 +22,7 @@ const Offer = () => {
         <h1 className="text-center font-semibold text-[35px] mb-6 text-white">
           COMMENTS
         </h1>
-        <div className="flex justify-between flex-wrap">
+        <div className="flex justify-between flex-wrap gap-3 p-2 sm:p-0">
           <div className="max-w-md mx-auto bg-[#35322C] rounded-xl shadow-md overflow-hidden md:max-w-lg">
             <div className="p-8">
               <blockquote className="text-gray-300 text-lg italic">

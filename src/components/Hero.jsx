@@ -19,9 +19,9 @@ import ju from "./assites/Justdial.png";
 const Hero = () => {
   return (
     <AppLayout>
-      <div className="flex gap-5 justify-between flex-wrap-reverse">
+      <div className="flex gap-5 justify-between flex-wrap-reverse p-2 md:p-0">
         <div className="w-[700px]  mt-[100px]">
-          <h2 className=" font-bold text-[24px] text-white mb-4 ">
+          <h2 className=" font-semibold text-[12px] sm:text-[16px] md:text-[20px] lg:text-[24px] text-white mb-4 ">
             “ It is a long established fact that a reader will be tracked
             distracted by the readable content of a page is when looking at its
             layout. The point of using Lorem of distribution it look like

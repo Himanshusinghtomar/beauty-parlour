@@ -40,7 +40,7 @@ const ContactUs = () => {
 
                 <div className="flex-col">
                   <h1 className="text-[16px] md:text-[24px] font-semibold text-white">MAIL US :</h1>
-                  <p className="text-[16px] lg:text-[22px] md:text-[15px] text-white">shanayabeautique@gmail.com</p>
+                  <p className="text-[12px] lg:text-[22px] md:text-[15px] text-white">shanayabeautique@gmail.com</p>
                 </div>
               </ul>
             </div>

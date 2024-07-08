@@ -10,7 +10,7 @@ const Service = () => {
   return (
     <div>
       <AppLayout>
-        <div className="mt-10 mb-10">
+        <div className="mt-10 mb-10 p-2 md:p-0">
           <h2
             className=" font-semibold text-[30px] text-center text-white mt-10"
             id="services"
@@ -25,17 +25,17 @@ const Service = () => {
                 className=" rounded-3xl  w-[448px]"
               />
             </div>
-            <div className="self-center">
+            <div className="self-center text-center mt-3 sm:mt-0 mx-auto sm:mx-0">
               <div>
 
-              <h4 className="text-[16px] lg:text-[22px] md:text-[15px] text-white mb-10">
+              <h4 className="text-[12px] lg:text-[22px] md:text-[15px] text-white mb-10">
                 Face Masks ............................................ from
                 ₹199
               </h4>
-              <h4 className="text-[16px] lg:text-[22px] md:text-[15px] text-white mb-10">
+              <h4 className="text-[12px] lg:text-[22px] md:text-[15px] text-white mb-10">
                 Full Body Massage ........................... from ₹1999
               </h4>
-              <h4 className="text-[16px] lg:text-[22px] md:text-[15px] text-white">
+              <h4 className="text-[12px] lg:text-[22px] md:text-[15px] text-white">
                 Hydragel Spa ........................................ from ₹899
               </h4>
               </div>
@@ -44,16 +44,16 @@ const Service = () => {
               </button>
             </div>
           </div>
-          <div className="flex justify-between flex-wrap">
-            <div className="self-center">
+          <div className="flex justify-between flex-wrap-reverse">
+            <div className="self-center text-center mt-3 sm:mt-0 mx-auto sm:mx-0">
               <div>
-                <h4 className="text-[16px] lg:text-[22px] md:text-[15px] text-white mb-10">
+                <h4 className="text-[12px] lg:text-[22px] md:text-[15px] text-white mb-10">
                   Hair Masks ........................... from ₹199
                 </h4>
-                <h4 className="text-[16px] lg:text-[22px] md:text-[15px] text-white mb-10">
+                <h4 className="text-[12px] lg:text-[22px] md:text-[15px] text-white mb-10">
                   Hair Massage ................... from ₹1999
                 </h4>
-                <h4 className="text-[16px] lg:text-[22px] md:text-[15px] text-white">
+                <h4 className="text-[12px] lg:text-[22px] md:text-[15px] text-white">
                   Hair Spa ............................... from ₹899
                 </h4>
               </div>
