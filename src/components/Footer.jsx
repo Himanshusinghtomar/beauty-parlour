@@ -6,7 +6,7 @@ import inst from "./assites/Instagram.png";
 // import you from "./assites/Youtube.png";
 function Footer() {
   return (
-    <div className="w-full h-[700px]  sm:h-[350px] lg:h-[410px]  bg-[#5F4614] text-[#FFF] ">
+    <div className="w-full     bg-[#5F4614] text-[#FFF] p-2 sm:p-0   lg:pb-4">
       <div class="flex justify-evenly flex-wrap">
         <div className="  my-10">
           <p className="mb-6 text-xl font-bold ">Contaact Details :-</p>
@@ -65,10 +65,10 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <hr className="my-1 bg-black text-black" />
+      <hr className="my-1 " />
       <div className="mx-auto mt-2 ">
         <div className=" text-center">
-          <p className="text-sm font-medium text-center">
+          <p className="text-sm font-medium text-center ">
             © 2024 COPYRIGHTS 2024 BY BEAUTIQUE ALL RIGHTS RESERVED
           </p>
         </div>
